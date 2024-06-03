@@ -173,20 +173,29 @@ body{
 }
 
 button {
-    background-color: #008CBA; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
+    font-size: 1.5rem;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10%;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
   }
+  
+  button:hover {background-color: #3e8e41}
 
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
   #search-button{
     border: #111;
     border-width: 10px;
     background-color:#ccc;
-
+    text-align: center;
+    font-size: 1.3rem;
   }
