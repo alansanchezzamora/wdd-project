@@ -54,9 +54,9 @@ function showUniversities(schools) {
             <p> Total Students : ${school.Students.Total}</p>
             <div>${school.Location.City}, ${school.Location.State}</div>
             <div class="buttons">
-                <a href="${school.Website}" target="_blank"  class="cart">${
-      school.Website
-    }</a>
+                <a href="https://${
+                  school.Website
+                }" target="_blank"  class="cart">${school.Website}</a>
             </div>
         </div>`;
   });
